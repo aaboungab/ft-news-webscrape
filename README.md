@@ -3,6 +3,12 @@
 ## Description
 This script is designed to scrape news headlines and links from various sections of the Financial Times website (https://www.ft.com). It reads the section names from an external file, scrapes the corresponding data, and saves it in separate text files organized in a specific directory.
 
+## Features
+- Dynamic section scraping: Automatically extracts content from user-defined sections of the Financial Times website.
+- Organized output: Saves scraped data in a structured format in separate text files for each section.
+- Customizable: Users can specify which sections to scrape through a simple text file.
+
+
 ## Requirements
 - Python 3
 - `requests`
